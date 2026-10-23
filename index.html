@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>Happy Anniversary 💗</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@0,500;1,400&family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <symbol id="fl" viewBox="-50 -50 100 100">
+          <g fill="currentColor" stroke="#fff" stroke-opacity=".5">
+            <ellipse cy="-26" rx="13" ry="24" />
+            <ellipse cy="-26" rx="13" ry="24" transform="rotate(60)" />
+            <ellipse cy="-26" rx="13" ry="24" transform="rotate(120)" />
+            <ellipse cy="-26" rx="13" ry="24" transform="rotate(180)" />
+            <ellipse cy="-26" rx="13" ry="24" transform="rotate(240)" />
+            <ellipse cy="-26" rx="13" ry="24" transform="rotate(300)" />
+          </g>
+          <circle r="11" fill="#ffe08a" />
+          <circle r="5" fill="#f6b84a" />
+        </symbol>
+      </defs>
+    </svg>
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <canvas id="gl"></canvas>
+    <audio id="bgm" loop src="lagu.mp3"></audio>
+    <button class="music" id="mb" aria-label="musik">🎵</button>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <p>untuk perempuan paling indah di hiduppp akuu</p>
+        <h1>Happy Anniversary<br /><span data-her>sayanggg</span> 💗</h1>
+        <p>— dari <span data-me>aku</span>, dengan seluruh hati</p>
+        <div class="scroll">SCROLL ↓</div>
+      </section>
+
+      <!-- COUNTER -->
+      <section class="rv">
+        <h2>Kita sudah bersama</h2>
+        <p class="sub">dan aku masih jatuh cinta setiap hari</p>
+        <div class="glass counter">
+          <div><b id="d">0</b><span>hari</span></div>
+          <div><b id="h">0</b><span>jam</span></div>
+          <div><b id="m">0</b><span>menit</span></div>
+          <div><b id="s">0</b><span>detik</span></div>
+        </div>
+        <div class="garden rv"></div>
+      </section>
+
+      <!-- SURAT PANJANG -->
+      <section class="rv">
+        <h2>Surat buatt sayangg</h2>
+        <p class="sub">baca pelan-pelan ya, ini dari akarr selubung lubungnyaa hatiii</p>
+        <div class="glass letter">
+          <span class="script">buatttt <span data-her>sayanggg</span>,</span><br />
+          <p>
+            Hai, sayanggg, iyaaaa inii buattt sayanggg, kamu yang sekarang lagi baca ini sambil mungkin
+            senyum-senyum sendiri. eaaaakkk hehehe, Hari ini tepat
+            <b>5 Bulan kita sayanggg</b> sejakk kitaa mulaii mutusinn jalannin hiduppp kitaaa, kesehariann kitaaa, bersamaa
+             ,sampai sekarang aku masih suka heran gmnaaa bisa
+            dari sekian banyak orang di dunia ini, semesta mempertemukan aku
+            dengan kamu? hehee
+          </p>
+          <p>
+            akuu sampee sekarangg masihh ingett tauu awall kenalll, awall jadiann gmnaa nembakk kamuu heheee
+            <b
+              >darii yangg stalkk kamuu pass bulann puasaa, teruss mulaii followw(tapi gak di follback), laluuu mulaii beranii dm kamuuu,
+              andaaii harii ituu akuu gaa dm, mungkinn gaadaaa ceritaa seindahh iniii</b
+            >. pass ituu akuu gatauu , kaloo kamu orangg yang kek muncul muluu di otakk akuuu, orangg yangg bakall aku kabarinn teruss lebihh
+            darii tantee, dann kaka kakaa, orangg yangg akuu mauu usahainnn terusss
+          </p>
+          <p>
+            makasihh atass lelahhh , dann usahaaa buatt terusss bertahann dsinii dengann segalaa kekurangann 
+            dann jugaaa ke hectic ann hidupp akuu sayanggg.
+            makasihh udaaa mauu nerimaa akuu yangg masihh belajarrr dalamm memperlakukann pasangann akuuu selayaknyaaa.
+            makasihh udahh selaluu negurr akuuu disaat akuu salahhh, nenanginn akuu, berii akuu pelukannn, dann jugaa kehangatann
+            bahkann disaatt kamuuu lelahhpunn kamuu ngasiihhituu ke akuuu
+            andd thenn hal hall yangg kamuu berii, makanann, lasagnaa yanggg kamuu tauu akuu sukaa bangett, kinderjoyy hehe
+            
+            dann setiapp akuu adaa apaa apaa, adaa masalahh, ataupunnn abiss berhasiill, kamuu rayainn akuuu
+            
+            makasihh yangg takk terhingga buatt pasangann akuuuTerima kasih sudah sabar menghadapi aku. akuu tauu akuu bukann orangg yangg sempurnaa
+            akuu mauu teruss belajarr buatt hubungann kitaaa, buatt kamuuu, buatt akuuu, buatt kitaaa. akuu mauu teruss belajarr buatt jadii yangg lebihh baikkk
+            buatt kamuuu, buatt akuuu, buatt kitaaa. ajariii akuu teruss yaa sayanggg
+          </p>
+          <p>
+            Kita pernah ngelewatinnn masa-masa yang gaa gampangg tauuu. aada hari-hari
+            ketika kita sama-sama bingung, ada hari ketika kita hampir menyerah.
+            tapi justru dari situ aku belajar bahwa mencintaimu bukan cuma soal
+            hari-hari yang indah. Mencintaimu adalah memilihmu lagi dan lagi, di
+            hari yang cerah maupun saat hujan. Dan kalau diberi pilihan seribu
+            kali, aku akan tetap memilih kamu.
+            maafff jikaa adaa putuss, lelahh, ataupun kataa kata baikk yangg disengajaa maupunn berlebihann , yangg dmnaa nyakitinn haatii sayangg
+            buatt sayangg mendemm banyakk halll,kadangg tegurann yangg akuu belumm terimaa malahh aku marahh ke sayangg
+            , tapii akuu tauu kamuuu gaada niatt buat nyakitinn akuuu, kamuuu cumaa mauu ngasiihh yangg terbaik buatt akuuu, buatt kitaaa  
+          </p>
+          <p>
+            akuu sukaa sayangg ketawaa, nyenderr kaloo capeee, ceritaa dengann exciteddd
+            akuu sukaa caraa sayangg pedulii sama hal hall kecilll, caraa sayangg nenanginn akuu, kasihh akuu spaceee
+            Aku suka versi saayangg yangg ceriaaa, lelahh, dann jugaaa apapunn ituu soall sayangg
+            <b>apalagii kadangg ketawanyeee sampee nyubitt dadaa aku, hishhhh heheee, maininn ketekkk akuuu</b>
+          </p>
+          <p>
+            kalauu suatuu saatt sayangg raguuu, tolongg ingett hal hal ini yaa saayangg: sayangg itu berhargaa
+            sayanggg ituu makhlukk yangg sangatt haruss dicintaaii selaluu, akuu mungkinn belumm bisaa kasihhh sepenuhnyaa ke sayangg
+            akuu bakall teruss usahaa bikinn sayanggg senenggg, mulaii kecil kecilann duluu yaa sayangg, akuu bakall tumbuhh jadii lelakii yangg
+            pantess adaa disamping sayangg terusss, tumbuhhh sama sayangg, bangunn rumahh kitaa pelann pelann
+          </p>
+          <p>
+            semogaaa setiapp detikk, menit, jam, harii, minggu, bulann, tahunn kitaa selalu 
+            dikasihh kesehatan sayngg, keberkahann, rezekii, dann yang pastii bahagiaaa selaluu.
+            
+            semogaa kitaa bisaa selaluu salingg menguatkann, mendengarkann, mengertii satu saama lainn, dann mendoaakann satu samaa lainn
+            . semogaa semuaa mimpii yang kitaa pernahh ceritakann, perlahann semuaa terwujuddd, dann semogaa disetiapp prosess ituu, 
+            kitaa selaluu adaaa
+          </p>
+          <p>
+            Happyy anniversarry yaaa cintaaa akuu, bububb akuuu, cipaa akuu, calonn istrii akuu
+            . makasihh udaaa selaluu jadii alasann aku buatt teruss adaa, buatt teruss bangkittt, dann jadii ceritaa yanggindahh
+            di hidupp akuuu. akuu sayanggg bangett sama kamuuu sayangg 🌷
+          </p>
+          <p class="sig script" style="font-size: 1.9rem">
+            jadii milikk<br /><span data-me>akuuu selaluu yaa sayanggg</span> 💞
+          </p>
+        </div>
+      </section>
+
+      <!-- TIMELINE -->
+      <section>
+        <h2 class="rv">Perjalanan Kita</h2>
+        <p class="sub rv">potongan-potongan kecil yang jadi cerita besar</p>
+        <div class="tl">
+          <div class="item rv">
+            <figure class="photo" data-label="Foto pertama ketemu">
+              <img src="first-date.jpeg" alt="" />
+            </figure>
+            <div class="glass txt">
+              <div class="date">18 mei 2026</div>
+              <h3>our first date</h3>
+              <p>
+                awall kitaa ketemuu, niatt mainnn ke perpuss belumm jadii waktu ituu, alhasill ke familymart kuningannn hehee,
+                banyakk ceritaa awall kenall sayangg
+              </p>
+            </div>
+          </div>
+          <div class="item rv">
+            <figure class="photo" data-label="Foto first date">
+              <img src="1bulan.jpeg" alt="" />
+            </figure>
+            <div class="glass txt">
+              <div class="date">23 mei 2026</div>
+              <h3>1 bulan Pertama</h3>
+              <p>
+                awall dmnaa kitaaa adaa sayanggg, 1 bulann ituu indahh, gaaada bulan bulan setelahnya kalo gaada 1 bulann
+              </p>
+            </div>
+          </div>
+          <div class="item rv">
+            <figure class="photo" data-label="Foto jadian">
+              <img src="bounce.jpeg" alt="" />
+            </figure>
+            <div class="glass txt">
+              <div class="date">27 Juli 2026</div>
+              <h3>Date kita untuk 2 bulan jadiann</h3>
+              <p>
+                dsinii kitaa mainn seruu bangetttt, lompatt lompatt, lari larii, manjatt manjattt, heheee
+              </p>
+            </div>
+          </div>
+          <div class="item rv">
+            <figure class="photo" data-label="Foto momen favorit">
+              <img src="acaragw.jpeg" alt="" />
+            </figure>
+            <div class="glass txt">
+              <div class="date">8 Agustus 2026</div>
+              <h3>first time dapet bungaa</h3>
+              <p>
+               kamu datengg ke acara aku, kasih hal yang gapernah aku dapett, aku sukaa bangett
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALERI -->
+      <section>
+        <h2 class="rv">Galeri Kenangan</h2>
+        <p class="sub rv">ganti foto di folder <b>foto/</b> sesuai nama file</p>
+        <div class="gal">
+          <figure class="pol rv" style="--r: -4deg">
+            <div class="photo" data-label="foto/galeri-1.jpg">
+              <img src="fotoperpus.jpeg" alt="" />
+            </div>
+            <figcaption>diperpuss</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: 3deg">
+            <div class="photo" data-label="foto/galeri-2.jpg">
+              <img src="kalayang.jpeg" alt="" />
+            </div>
+            <figcaption>kalayung</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: -2deg">
+            <div class="photo" data-label="foto/galeri-3.jpg">
+              <img src="b2.jpeg" alt="" />
+            </div>
+            <figcaption>after foto inframe</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: 4deg">
+            <div class="photo" data-label="foto/galeri-4.jpg">
+              <img src="cafe.jpeg" alt="" />
+            </div>
+            <figcaption>ngafe </figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: -3deg">
+            <div class="photo" data-label="foto/galeri-5.jpg">
+              <img src="pdl.jpeg" alt="" />
+            </div>
+            <figcaption>PG paud x Elektro</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: 2deg">
+            <div class="photo" data-label="foto/galeri-6.jpg">
+              <img src="bonceng1.jpeg" alt="" />
+            </div>
+            <figcaption>bonceng sayangg</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: 2deg">
+            <div class="photo" data-label="foto/galeri-7.jpg">
+              <img src="otot.jpeg" alt="" />
+            </div>
+            <figcaption>abis taichan</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: -2deg">
+            <div class="photo" data-label="foto/galeri-8.jpg">
+              <img src="blokm1.jpeg" alt="" />
+            </div>
+            <figcaption>liatt liatt bajuuh</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: -2deg">
+            <div class="photo" data-label="foto/galeri-8.jpg">
+              <img src="ragunan.jpeg" alt="" />
+            </div>
+            <figcaption>KATANYA Jogging</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: -2deg">
+            <div class="photo" data-label="foto/galeri-8.jpg">
+              <img src="caca.jpeg" alt="" />
+            </div>
+            <figcaption>rayain sama caca</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: -2deg">
+            <div class="photo" data-label="foto/galeri-8.jpg">
+              <img src="ultah.jpeg" alt="" />
+            </div>
+            <figcaption>ultahh akuu sama kmuu</figcaption>
+          </figure>
+          <figure class="pol rv" style="--r: -2deg">
+            <div class="photo" data-label="foto/galeri-8.jpg">
+              <img src="acaragw.jpeg" alt="" />
+            </div>
+            <figcaption>fotbarr abis seminar</figcaption>
+          </figure> 
+        </div>
+      </section>
+
+      <!-- UCAPAN -->
+      <section>
+        <h2 class="rv">Ucapan buatt amuuuu</h2>
+        <p class="sub rv">kartu-kartu kicikkkk 💌</p>
+        <div class="wish">
+          <div class="glass card tilt rv">
+            <div class="em">🌸</div>
+            <h4>Terima Kasih</h4>
+            <p>
+              Terima kasih sudah selalu ada, bahkan di saat aku sendiri lupa
+              caranya bersyukur. Kamu adalah hadiah terbaik tahun ini, dan
+              tahun-tahun yang akann datangg.
+            </p>
+          </div>
+          <div class="glass card tilt rv">
+            <div class="em">💗</div>
+            <h4>Aku Sayang Kamu</h4>
+            <p>
+              Tiga kata yang sederhana, tapi isinya seluruh aneeee. Aku sayang
+              kamu.
+            </p>
+          </div>
+          <div class="glass card tilt rv">
+            <div class="em">🌷</div>
+            <h4>Doa buat sayangg</h4>
+            <p>
+              Semoga kamu selalu sehat, bahagia, dilindungi, dan dikelilingi
+              orang-orang baik. Semoga semua cita-citamu terwujud satu per satu.
+            </p>
+          </div>
+          <div class="glass card tilt rv">
+            <div class="em">🦋</div>
+            <h4>janjii akuu</h4>
+            <p>
+              Aku janji akan terus belajar jadi lebih baik, lebih sabar, dan
+              lebih dewasa, supaya kamu selalu merasa aman sama akuuu.
+            </p>
+          </div>
+          <div class="glass card tilt rv">
+            <div class="em">✨</div>
+            <h4>Untuk Masa Depan</h4>
+            <p>
+              Aku tidak tahu persis apa yang menunggu di depan, tapi selama itu
+              bersamamu, aku siap melangkah ke mana pun.
+              <b>semogaa mamahh teacherr papah engineer itu akan selalu adaa</b>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ALASAN -->
+      <section>
+        <h2 class="rv">Kenapa Aku Cinta Kamu</h2>
+        <p class="sub rv">ketuk kartunya 💞</p>
+        <div class="reasons">
+          <div class="flip rv">
+            <div>
+              <div class="f">senyumm kamuu</div>
+              <div class="b">
+                senyumm kamu yang lebar itu bikinn aku ingett ada perempuann yang haruss aku perjuanginn.
+              </div>
+            </div>
+          </div>
+          <div class="flip rv">
+            <div>
+              <div class="f">Hatimu</div>
+              <div class="b">
+                Kamu tulus dan peduli, bahkan pada hal-hal yang orang lain nggaaa
+                liatt ituu sayanggg.
+              </div>
+            </div>
+          </div>
+          <div class="flip rv">
+            <div>
+              <div class="f">Tawamu</div>
+              <div class="b">
+                suaraa ketawaa kamuu yangg kendegeran sampe kalayang dr rumahh itu bikin akuu senengg.
+              </div>
+            </div>
+          </div>
+          <div class="flip rv">
+            <div>
+              <div class="f">Caramu Percaya</div>
+              <div class="b">
+                kamu selaluu percaya samaa aku, bahkan disaat aku raguu samaa diri aku sendirii
+              </div>
+            </div>
+          </div>
+          <div class="flip rv">
+            <div>
+              <div class="f">Kehadiranmu</div>
+              <div class="b">
+                mauu ketemuu, vc, ataupunn chatt, rasanyaa aku selalu kangenn sayangg
+              </div>
+            </div>
+          </div>
+          <div class="flip rv">
+            <div>
+              <div class="f">Kamu, Sepenuhnya</div>
+              <div class="b"><b>kamuu ituu sekarangg bukan jadii orang yang sekedar ada, tapii ingin aku ajakk teruss disetiapp momentt </b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+<section class="end rv">
+        <h2>Selamat Anniversary,<br /><span data-her>Sayang</span> 🌹</h2>
+        <p class="sub">semoga kita terus mekar bersama, setiap hari</p>
+        <button class="btn" id="surprise">Buka Kejutan Kecil 🎁</button>
+        <div class="garden rv"></div>
+      </section>
+    </main>
+    <footer>
+      dibuat dengan 💗 oleh <span data-me>aku</span> • untuk
+      <span data-her>kamu</span>
+    </footer>
+    <script defer src="script.js"></script>
+  </body>
+</html>
